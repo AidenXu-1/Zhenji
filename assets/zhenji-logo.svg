@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">帧集相机笑脸标志</title>
+  <desc id="desc">深靛蓝相机与笑脸镜头组成的帧集标志</desc>
+  <defs>
+    <linearGradient id="camera-ink" x1="230" y1="210" x2="798" y2="827" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1F3B5A"/>
+      <stop offset="1" stop-color="#2E4B6D"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#camera-ink)" d="M230 316C230 293 248 275 271 275H279C290 275 297 268 297 257V247C297 226 314 209 335 209H425C446 209 464 226 464 247V257C464 268 471 275 482 275H526C676 275 798 397 798 548C798 702 673 827 519 827H501C351 827 230 705 230 555Z"/>
+  <circle cx="525" cy="562" r="197" fill="#F8FAFB"/>
+  <circle cx="525" cy="562" r="122" fill="url(#camera-ink)"/>
+  <circle cx="578" cy="505" r="22" fill="#E8F2F0"/>
+  <path d="M490 626C511 648 548 648 569 626" fill="none" stroke="#F8FAFB" stroke-width="20" stroke-linecap="round"/>
+  <path d="M290 418V353C290 341 300 331 312 331H377" fill="none" stroke="#D7EAE9" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
