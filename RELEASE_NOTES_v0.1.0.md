@@ -4,8 +4,8 @@
 
 ## 下载选择
 
-- 推荐：`帧集-0.1.0-macOS-arm64.dmg`
-- 备用：`帧集-0.1.0-macOS-arm64.zip`
+- 推荐：`Zhenji-0.1.0-macOS-arm64.dmg`
+- 备用：`Zhenji-0.1.0-macOS-arm64.zip`
 
 两个安装包包含同一版本。支持 macOS 15+ 和 Apple Silicon Mac。
 
