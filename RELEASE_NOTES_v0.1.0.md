@@ -27,10 +27,14 @@
 - 自动化测试：1170 项执行，6 项按机器条件跳过，0 失败
 - DMG 完整性与只读挂载验证通过
 - ZIP 与 DMG 中的应用可执行文件哈希一致
+- ZIP 与 DMG 中的应用均通过包体签名完整性验证
+- 发行二进制已检查并移除本机绝对路径、内部任务标记与调试覆盖率数据
 - 应用标识：`com.zhaoji.zhenji`
 - 应用版本：`0.1.0 (1)`
 - 架构：`arm64`
 
 安装包 SHA-256 请见随附的 `SHA256SUMS.txt`。
+
+当前版本采用临时签名，未使用 Developer ID，也未经过 Apple 公证。包体签名完整性通过不等于 Apple 信任或 Gatekeeper 放行。
 
 已知边界请查看 [KNOWN_ISSUES.md](https://github.com/AidenXu-1/Zhenji/blob/main/KNOWN_ISSUES.md)。

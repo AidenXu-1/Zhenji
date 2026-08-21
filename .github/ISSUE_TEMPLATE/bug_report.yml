@@ -1,0 +1,44 @@
+name: 问题反馈
+description: 提交可稳定复现的帧集问题
+title: "[问题] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。请勿上传含有账号、聊天内容、私人文件路径或其他敏感信息的原始截图和录屏。
+  - type: input
+    id: version
+    attributes:
+      label: 帧集版本
+      placeholder: 例如 0.1.0 (1)
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS 与 Mac 型号
+      placeholder: 例如 macOS 15.6，MacBook Air M3
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 请按实际发生顺序描述。
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 实际结果与预期结果
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我已移除附件中的账号、聊天内容、私人文件路径和其他敏感信息。
+          required: true
