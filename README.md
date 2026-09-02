@@ -1,79 +1,102 @@
 <p align="center">
-  <img src="assets/zhenji-logo.svg" width="112" alt="帧集相机笑脸标志">
+  <img src="assets/zhenji-logo.svg" width="104" alt="帧集相机笑脸标志">
 </p>
 
 <h1 align="center">帧集</h1>
 
 <p align="center">
-  把截图、录屏与素材整理，收进一条安静的本地工作流。
+  为 macOS 打造的本地截图、录屏与素材采集工具。
+  <br>
+  从捕捉、编辑到整理，让一次工作在同一条流程里完成。
 </p>
 
 <p align="center">
-  macOS 15+ · Apple Silicon · 本机处理 · 公开测试版
+  macOS 15+ &nbsp;·&nbsp; Apple Silicon &nbsp;·&nbsp; 本机处理 &nbsp;·&nbsp; 公开测试版
 </p>
 
 <p align="center">
   <a href="https://github.com/AidenXu-1/Zhenji/releases/latest"><strong>下载最新版本</strong></a>
-  ·
+  &nbsp;·&nbsp;
+  <a href="#下载与安装">安装说明</a>
+  &nbsp;·&nbsp;
   <a href="PRIVACY.md">隐私说明</a>
-  ·
-  <a href="KNOWN_ISSUES.md">已知限制</a>
-  ·
+  &nbsp;·&nbsp;
   <a href="SUPPORT.md">问题反馈</a>
 </p>
 
 ![帧集：截图、录屏与素材采集的一体化本地工作流](assets/zhenji-hero.svg)
 
-## 一次完成，从捕捉到整理
+## 捕捉、编辑、整理，一条本地工作流
 
-帧集是一款面向 macOS 的截图、录屏与素材采集工具。它把高频动作放在快捷键附近，把编辑和整理留在同一条工作流里，减少在多个应用之间来回切换。
+帧集把截图、录屏和临时素材收集放进同一个 macOS 应用。高频操作从快捷键开始，结果可以直接复制、保存、继续编辑或集中放入采集板，减少在多个工具之间来回切换。
 
-| 截图 | 录屏 | 采集与整理 |
+| 截图 | 录屏 | 采集卡与采集板 |
 | --- | --- | --- |
-| 区域、窗口、全屏与上次范围 | 屏幕、麦克风与摄像头 | 图片与视频采集板 |
-| 标注、圆角、阴影与固定截图 | 区域框选、暂停继续与本地编辑 | OCR、二维码与本地图片翻译 |
-| 滚动长图与快速复制、保存 | 自动缩放、录中标记与导出 | 素材库与连续工作流 |
+| 区域、窗口、全屏和上次范围 | 全屏、窗口和自定义区域 | 图片、视频、音频、文本与常用文件 |
+| 标注、圆角、阴影和固定截图 | 系统声音、麦克风和摄像头 | 文件夹、压缩包与混合素材收集 |
+| 滚动长图、OCR、二维码与本地图片翻译 | 暂停继续、录中标记与范围提示 | 筛选、Quick Look、批量复制和拖出 |
+| 快速复制、保存或加入采集板 | 本地编辑、自动缩放与导出 | 扇形浏览、键盘操作与手动清空 |
+
+## 0.2.1 有什么新变化
+
+- 自定义区域录屏开始后会持续显示边界，让正在录入的范围始终清楚可见。
+- 录制控制条改为更紧凑的深墨色胶囊，重新梳理计时、暂停、停止和放弃的操作层级。
+- 录制边界和控制条均支持 macOS 的“减少透明度”与“减少动态效果”。
+
+[查看完整版本说明](https://github.com/AidenXu-1/Zhenji/releases/tag/v0.2.1)
 
 ## 下载与安装
 
-当前版本为 **0.2.1 公开测试版**，支持 macOS 15 或更高版本及 Apple Silicon Mac。
+当前公开版本为 **0.2.1 (3)**，支持 **macOS 15 或更高版本**和 **Apple Silicon Mac**。
 
-- [下载 DMG（推荐）](https://github.com/AidenXu-1/Zhenji/releases/download/v0.2.1/Zhenji-0.2.1-macOS-arm64.dmg)
-- [下载 ZIP（备用）](https://github.com/AidenXu-1/Zhenji/releases/download/v0.2.1/Zhenji-0.2.1-macOS-arm64.zip)
-- [查看版本说明](https://github.com/AidenXu-1/Zhenji/releases/tag/v0.2.1)
-
-安装步骤：
+<p>
+  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v0.2.1/Zhenji-0.2.1-macOS-arm64.dmg"><strong>下载 DMG（推荐）</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v0.2.1/Zhenji-0.2.1-macOS-arm64.zip">下载 ZIP</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/AidenXu-1/Zhenji/releases/latest">查看最新 Release</a>
+</p>
 
 1. 打开 DMG，把“帧集”拖入“应用程序”。
 2. 首次启动若被 macOS 拦截，进入“系统设置 → 隐私与安全性”，在“安全性”区域点击“仍要打开”。
-3. 按应用内引导授予屏幕录制权限。只有启用对应功能时，才需要麦克风或摄像头权限。
+3. 按应用内引导授予屏幕录制权限；只有使用对应功能时，才需要麦克风或摄像头权限。
 4. macOS 授权后若功能没有立即生效，请退出并重新打开帧集。
 
-> 当前公开测试版未使用 Developer ID，也未经过 Apple 公证。临时签名可用于校验包体完整性，但不会获得 Gatekeeper 直接放行。“仍要打开”也不能代替屏幕录制、麦克风或摄像头授权。
+> 当前公开测试版使用临时签名，尚未使用 Developer ID，也没有经过 Apple 公证。因此 Gatekeeper 不会直接放行，首次启动可能需要“仍要打开”。这与屏幕录制、麦克风和摄像头权限是两套独立授权。
 
-## 隐私边界
+## 本机处理与权限
 
-- 无需注册账户。
-- 当前版本不包含广告、行为分析或遥测上报。
+- 无需注册账户，不包含广告、行为分析或遥测上报。
 - 截图、录屏、OCR、二维码识别和图片翻译默认在用户的 Mac 上处理。
-- 用户内容不会由帧集主动上传。
-- 发布包在上传前会检查本机绝对路径、内部任务标记、调试覆盖率数据和常见凭据特征。
+- 用户内容不会由帧集主动上传；图片翻译所需的语言资源可能由 macOS 首次准备。
+- 屏幕录制、麦克风和摄像头权限均由 macOS 管理，可随时在“系统设置 → 隐私与安全性”中撤销。
 
-更完整的权限与数据说明见 [PRIVACY.md](PRIVACY.md)。提交问题前，请先遮挡截图或录屏中的账号、聊天内容、文件路径及其他敏感信息。
+详细的数据与剪贴板边界见 [隐私说明](PRIVACY.md)。提交公开问题前，请遮挡账号、聊天内容、文件路径和其他敏感信息。
 
-## 校验下载文件
+## 当前支持边界
 
-下载同一版本的 `SHA256SUMS.txt` 后，可在终端执行：
+- 仅支持 Apple Silicon Mac，Intel Mac 暂未列入支持范围。
+- 当前以单显示器工作流为稳定范围；跨显示器、混合缩放比例和二维滚动拼接仍在完善。
+- 动态变化或虚拟化程度很高的网页，滚动长图可能需要手动调整。
+
+更多说明见 [已知限制](KNOWN_ISSUES.md)。
+
+<details>
+<summary><strong>校验下载文件</strong></summary>
+
+下载同一版本的 `SHA256SUMS.txt` 后，在文件所在目录执行：
 
 ```bash
 shasum -a 256 -c SHA256SUMS.txt
 codesign --verify --deep --strict --verbose=4 /Applications/帧集.app
 ```
 
-校验和用于确认下载文件字节一致；`codesign` 用于检查 App 包体签名完整性。它们都不代表 Apple 公证或 Gatekeeper 信任。
+校验和用于确认下载文件字节一致；`codesign` 用于检查 App 包体签名完整性。两者都不代表 Apple 公证或 Gatekeeper 信任。
 
-## 项目说明
+</details>
 
-此仓库仅用于公开下载、版本说明和问题反馈，不包含帧集的产品源码，也不以开源许可证发布。
+## 关于这个仓库
 
-遇到问题请先查看 [已知限制](KNOWN_ISSUES.md)，再通过 [GitHub Issues](https://github.com/AidenXu-1/Zhenji/issues) 提交可复现信息。
+此仓库是帧集的**公开下载与支持页面**，用于提供安装包、版本说明、校验和及问题反馈。仓库不包含产品源码，也不以开源许可证发布。
+
+遇到问题时，请先查看 [已知限制](KNOWN_ISSUES.md)，再通过 [GitHub Issues](https://github.com/AidenXu-1/Zhenji/issues) 提交可复现信息。

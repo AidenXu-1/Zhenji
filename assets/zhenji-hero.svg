@@ -63,8 +63,8 @@
       <rect x="26" y="28" width="64" height="64" rx="18" fill="#E1E5EC"/>
       <path d="M43 50h30v22H43zM49 44h30v22" fill="none" stroke="#28506B" stroke-width="3" stroke-linejoin="round"/>
       <text x="26" y="132" fill="#203B52" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="27" font-weight="700">采集</text>
-      <text x="26" y="170" fill="#687681" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="17">图片 · 视频</text>
-      <text x="26" y="198" fill="#687681" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="17">卡片 · 素材库</text>
+      <text x="26" y="170" fill="#687681" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="17">文件 · 文字</text>
+      <text x="26" y="198" fill="#687681" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="17">筛选 · 批量拖出</text>
       <path d="M26 250h156" stroke="#E5DED4"/>
       <text x="26" y="280" fill="#2B7768" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="15" font-weight="600">一处持续整理</text>
     </g>

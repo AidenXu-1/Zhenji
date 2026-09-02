@@ -1,6 +1,8 @@
 # 使用支持
 
-请通过 [GitHub Issues](https://github.com/AidenXu-1/Zhenji/issues) 反馈问题。
+下载、首次打开或授权遇到问题时，请先查看 [安装说明](README.md#下载与安装) 和 [已知限制](KNOWN_ISSUES.md)。
+
+仍能稳定复现的问题，请通过 [GitHub Issues](https://github.com/AidenXu-1/Zhenji/issues) 反馈。
 
 为了更快定位，请尽量提供：
 
@@ -12,3 +14,5 @@
 - 必要的截图或短录屏
 
 提交前请遮挡账号、聊天内容、文件路径及其他敏感信息。不要上传包含隐私内容的原始录屏。
+
+帧集的数据处理与系统权限边界见 [隐私说明](PRIVACY.md)。

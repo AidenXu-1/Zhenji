@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: 使用与安装说明
-    url: https://github.com/AidenXu-1/Zhenji/blob/main/SUPPORT.md
-    about: 提交问题前，请先查看安装、权限与脱敏说明。
+  - name: 下载与安装
+    url: https://github.com/AidenXu-1/Zhenji#下载与安装
+    about: 查看兼容性、首次打开和 macOS 权限说明。
+  - name: 已知限制
+    url: https://github.com/AidenXu-1/Zhenji/blob/main/KNOWN_ISSUES.md
+    about: 提交问题前，先确认是否属于当前公开测试版的已知边界。
