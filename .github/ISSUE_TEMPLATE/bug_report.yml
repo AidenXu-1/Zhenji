@@ -12,7 +12,7 @@ body:
     id: version
     attributes:
       label: 帧集版本
-      placeholder: 例如 0.1.0 (1)
+      placeholder: 例如 0.2.0 (2)
     validations:
       required: true
   - type: input

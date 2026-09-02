@@ -36,11 +36,11 @@
 
 ## 下载与安装
 
-当前版本为 **0.1.0 公开测试版**，支持 macOS 15 或更高版本及 Apple Silicon Mac。
+当前版本为 **0.2.0 公开测试版**，支持 macOS 15 或更高版本及 Apple Silicon Mac。
 
-- [下载 DMG（推荐）](https://github.com/AidenXu-1/Zhenji/releases/download/v0.1.0/Zhenji-0.1.0-macOS-arm64.dmg)
-- [下载 ZIP（备用）](https://github.com/AidenXu-1/Zhenji/releases/download/v0.1.0/Zhenji-0.1.0-macOS-arm64.zip)
-- [查看版本说明](https://github.com/AidenXu-1/Zhenji/releases/tag/v0.1.0)
+- [下载 DMG（推荐）](https://github.com/AidenXu-1/Zhenji/releases/download/v0.2.0/Zhenji-0.2.0-macOS-arm64.dmg)
+- [下载 ZIP（备用）](https://github.com/AidenXu-1/Zhenji/releases/download/v0.2.0/Zhenji-0.2.0-macOS-arm64.zip)
+- [查看版本说明](https://github.com/AidenXu-1/Zhenji/releases/tag/v0.2.0)
 
 安装步骤：
 
