@@ -37,22 +37,24 @@
 | 滚动长图、OCR、二维码与本地图片翻译 | 暂停继续、录中标记与范围提示 | 筛选、Quick Look、批量复制和拖出 |
 | 快速复制、保存或加入采集板 | 本地编辑、自动缩放与导出 | 扇形浏览、键盘操作与手动清空 |
 
-## 0.2.1 有什么新变化
+## 0.3.0 有什么新变化
 
-- 自定义区域录屏开始后会持续显示边界，让正在录入的范围始终清楚可见。
-- 录制控制条改为更紧凑的深墨色胶囊，重新梳理计时、暂停、停止和放弃的操作层级。
-- 录制边界和控制条均支持 macOS 的“减少透明度”与“减少动态效果”。
+- 截图增加瞄准光标和像素放大取色，支持 RGB / HEX 切换及快捷复制色值。
+- 重新整理标注面板，统一自定义颜色与透明度操作；箭头支持圆角、曲线和折线。
+- 文字可按内容自动调整范围，支持本机字体分类、悬停预览和最近使用排序。
+- 改善手动长截图的跟随与完成流程，修复最后一屏持续等待、固定截图无法拖动等问题。
+- 减少普通操作完成后的提示，仅保留权限相关结果提示。
 
-[查看完整版本说明](https://github.com/AidenXu-1/Zhenji/releases/tag/v0.2.1)
+[查看完整版本说明](https://github.com/AidenXu-1/Zhenji/releases/tag/v0.3.0)
 
 ## 下载与安装
 
-当前公开版本为 **0.2.1 (3)**，支持 **macOS 15 或更高版本**和 **Apple Silicon Mac**。
+当前公开版本为 **0.3.0 (4)**，支持 **macOS 15 或更高版本**和 **Apple Silicon Mac**。
 
 <p>
-  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v0.2.1/Zhenji-0.2.1-macOS-arm64.dmg"><strong>下载 DMG（推荐）</strong></a>
+  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v0.3.0/Zhenji-0.3.0-macOS-arm64.dmg"><strong>下载 DMG（推荐）</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v0.2.1/Zhenji-0.2.1-macOS-arm64.zip">下载 ZIP</a>
+  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v0.3.0/Zhenji-0.3.0-macOS-arm64.zip">下载 ZIP</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/AidenXu-1/Zhenji/releases/latest">查看最新 Release</a>
 </p>
@@ -77,7 +79,7 @@
 
 - 仅支持 Apple Silicon Mac，Intel Mac 暂未列入支持范围。
 - 当前以单显示器工作流为稳定范围；跨显示器、混合缩放比例和二维滚动拼接仍在完善。
-- 动态变化或虚拟化程度很高的网页，滚动长图可能需要手动调整。
+- 长截图当前仅提供手动滚动；动态变化或虚拟化程度很高的网页可能需要回滚调整，暂不提供自动滚动入口。
 
 更多说明见 [已知限制](KNOWN_ISSUES.md)。
 
