@@ -37,7 +37,7 @@
 | 滚动长图、OCR、二维码与本地图片翻译 | 暂停继续、录中标记与范围提示 | 筛选、Quick Look、批量复制和拖出 |
 | 快速复制、保存或加入采集板 | 本地编辑、自动缩放与导出 | 扇形浏览、键盘操作与手动清空 |
 
-## 0.3.0 有什么新变化
+## 当前版本：0.3.0 (4)
 
 - 截图增加瞄准光标和像素放大取色，支持 RGB / HEX 切换及快捷复制色值。
 - 重新整理标注面板，统一自定义颜色与透明度操作；箭头支持圆角、曲线和折线。
@@ -49,7 +49,7 @@
 
 ## 下载与安装
 
-当前公开版本为 **0.3.0 (4)**，支持 **macOS 15 或更高版本**和 **Apple Silicon Mac**。
+支持 **macOS 15 或更高版本**和 **Apple Silicon Mac**。
 
 <p>
   <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v0.3.0/Zhenji-0.3.0-macOS-arm64.dmg"><strong>下载 DMG（推荐）</strong></a>
@@ -64,7 +64,19 @@
 3. 按应用内引导授予屏幕录制权限；只有使用对应功能时，才需要麦克风或摄像头权限。
 4. macOS 授权后若功能没有立即生效，请退出并重新打开帧集。
 
-> 当前公开测试版使用临时签名，尚未使用 Developer ID，也没有经过 Apple 公证。因此 Gatekeeper 不会直接放行，首次启动可能需要“仍要打开”。这与屏幕录制、麦克风和摄像头权限是两套独立授权。
+<details>
+<summary><strong>校验下载文件</strong></summary>
+
+下载同一版本的 `SHA256SUMS.txt` 后，在文件所在目录执行：
+
+```bash
+shasum -a 256 -c SHA256SUMS.txt
+codesign --verify --deep --strict --verbose=4 /Applications/帧集.app
+```
+
+校验和用于确认下载文件字节一致；`codesign` 用于检查 App 包体签名完整性。
+
+</details>
 
 ## 本机处理与权限
 
@@ -82,20 +94,6 @@
 - 长截图当前仅提供手动滚动；动态变化或虚拟化程度很高的网页可能需要回滚调整，暂不提供自动滚动入口。
 
 更多说明见 [已知限制](KNOWN_ISSUES.md)。
-
-<details>
-<summary><strong>校验下载文件</strong></summary>
-
-下载同一版本的 `SHA256SUMS.txt` 后，在文件所在目录执行：
-
-```bash
-shasum -a 256 -c SHA256SUMS.txt
-codesign --verify --deep --strict --verbose=4 /Applications/帧集.app
-```
-
-校验和用于确认下载文件字节一致；`codesign` 用于检查 App 包体签名完整性。两者都不代表 Apple 公证或 Gatekeeper 信任。
-
-</details>
 
 ## 关于这个仓库
 
