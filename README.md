@@ -25,7 +25,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/zhenji-hero.jpg" width="720" alt="帧集：所见即创作">
+  <img src="assets/zhenji-hero.jpg" width="440" alt="帧集：所见即创作">
 </p>
 
 ## 捕捉、编辑、整理，一条本地工作流
