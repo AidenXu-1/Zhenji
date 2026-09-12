@@ -24,11 +24,28 @@
   <a href="SUPPORT.md">问题反馈</a>
 </p>
 
-![帧集：截图、录屏与素材采集的一体化本地工作流](assets/zhenji-hero.svg)
+<p align="center">
+  <img src="assets/zhenji-hero.jpg" width="720" alt="帧集：所见即创作">
+</p>
 
 ## 捕捉、编辑、整理，一条本地工作流
 
 帧集把截图、录屏和临时素材收集放进同一个 macOS 应用。高频操作从快捷键开始，结果可以直接复制、保存、继续编辑或集中放入采集板，减少在多个工具之间来回切换。
+
+<table>
+  <tr>
+    <td align="center"><img src="assets/feature-screenshot.jpg" width="100%" alt="截图"><br><strong>截图</strong></td>
+    <td align="center"><img src="assets/feature-ocr-translate.jpg" width="100%" alt="识别与翻译"><br><strong>识别与翻译</strong></td>
+    <td align="center"><img src="assets/feature-recording.jpg" width="100%" alt="录屏"><br><strong>录屏</strong></td>
+    <td align="center"><img src="assets/feature-teleprompter.jpg" width="100%" alt="提词器"><br><strong>提词器</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/feature-capture-card.jpg" width="100%" alt="采集卡"><br><strong>采集卡</strong></td>
+    <td align="center"><img src="assets/feature-capture-board.jpg" width="100%" alt="采集板"><br><strong>采集板</strong></td>
+    <td align="center"><img src="assets/feature-editor.jpg" width="100%" alt="视频编辑工作台"><br><strong>视频编辑工作台</strong></td>
+    <td align="center"><img src="assets/feature-beautify.jpg" width="100%" alt="画面美化"><br><strong>画面美化</strong></td>
+  </tr>
+</table>
 
 | 截图 | 录屏 | 采集卡与采集板 |
 | --- | --- | --- |
