@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  macOS 15+ &nbsp;·&nbsp; Apple Silicon &nbsp;·&nbsp; 本机处理 &nbsp;·&nbsp; 公开测试版
+  macOS 15+ &nbsp;·&nbsp; Apple Silicon &nbsp;·&nbsp; 本机处理 &nbsp;·&nbsp; 公开版本
 </p>
 
 <p align="center">
@@ -54,24 +54,24 @@
 | 滚动长图、OCR、二维码与本地图片翻译 | 暂停继续、录中标记与范围提示 | 筛选、Quick Look、批量复制和拖出 |
 | 快速复制、保存或加入采集板 | 本地编辑、自动缩放与导出 | 扇形浏览、键盘操作与手动清空 |
 
-## 当前版本：0.3.0 (4)
+## 当前版本：1.0.0 (5)
 
-- 截图增加瞄准光标和像素放大取色，支持 RGB / HEX 切换及快捷复制色值。
-- 重新整理标注面板，统一自定义颜色与透明度操作；箭头支持圆角、曲线和折线。
-- 文字可按内容自动调整范围，支持本机字体分类、悬停预览和最近使用排序。
-- 改善手动长截图的跟随与完成流程，修复最后一屏持续等待、固定截图无法拖动等问题。
-- 减少普通操作完成后的提示，仅保留权限相关结果提示。
+- 自动缩放会结合点击、划选、输入、滚动和边缘停留判断观众需要看清的区域，并按内容范围调整倍率与取景。
+- 相邻镜头会根据距离和运动方向决定保持、平移或还原，减少短时间内反复缩放造成的急促感。
+- 录后工作台统一了缩放与速度的片段选择方式，并把剪切整理为可添加、调整和移除的“跳过”效果。
+- 自动分析状态与进度集中到右侧设置区，长视频可先进入工作台并继续查看处理进度。
+- 修复无倒计时启动异常和停止录制后的闪退，并减少重复分析所需时间。
 
-[查看完整版本说明](https://github.com/AidenXu-1/Zhenji/releases/tag/v0.3.0)
+[查看完整版本说明](https://github.com/AidenXu-1/Zhenji/releases/tag/v1.0.0)
 
 ## 下载与安装
 
 支持 **macOS 15 或更高版本**和 **Apple Silicon Mac**。
 
 <p>
-  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v0.3.0/Zhenji-0.3.0-macOS-arm64.dmg"><strong>下载 DMG（推荐）</strong></a>
+  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v1.0.0/Zhenji-1.0.0-macOS-arm64.dmg"><strong>下载 DMG（推荐）</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v0.3.0/Zhenji-0.3.0-macOS-arm64.zip">下载 ZIP</a>
+  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v1.0.0/Zhenji-1.0.0-macOS-arm64.zip">下载 ZIP</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/AidenXu-1/Zhenji/releases/latest">查看最新 Release</a>
 </p>

@@ -1,2 +1,2 @@
-eb9a1a0e1a7edeec15d8ff042214ade3916204f2d7c4e38199d4bddd4f311535  Zhenji-0.3.0-macOS-arm64.dmg
-72f4d17281a7f6f9fa210f6e84aba5ef4b2624f081ff23dc4bcc04dff4a692c2  Zhenji-0.3.0-macOS-arm64.zip
+765dfd9891f98d1c64a633c2be83f1289ec33f28c16cdd15a239c84356978afa  Zhenji-1.0.0-macOS-arm64.dmg
+87fdf628a9e48e878da546a494a2ced7e70bc23727da3c3e096be39c2c379360  Zhenji-1.0.0-macOS-arm64.zip
