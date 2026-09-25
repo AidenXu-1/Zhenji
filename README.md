@@ -54,24 +54,23 @@
 | 滚动长图、OCR、二维码与本地图片翻译 | 暂停继续、录中标记与范围提示 | 筛选、Quick Look、批量复制和拖出 |
 | 快速复制、保存或加入采集板 | 本地编辑、自动缩放与导出 | 扇形浏览、键盘操作与手动清空 |
 
-## 当前版本：1.0.0 (5)
+## 当前版本：1.0.1 (7)
 
-- 自动缩放会结合点击、划选、输入、滚动和边缘停留判断观众需要看清的区域，并按内容范围调整倍率与取景。
-- 相邻镜头会根据距离和运动方向决定保持、平移或还原，减少短时间内反复缩放造成的急促感。
-- 录后工作台统一了缩放与速度的片段选择方式，并把剪切整理为可添加、调整和移除的“跳过”效果。
-- 自动分析状态与进度集中到右侧设置区，长视频可先进入工作台并继续查看处理进度。
-- 修复无倒计时启动异常和停止录制后的闪退，并减少重复分析所需时间。
+- 修复文字识别遇到计算异常后，中文变成无意义字母的问题；失败时保留原图并给出重试提示。
+- 修复 macOS 26 及以上、语言资源已安装时，图片翻译停在连接阶段的问题。
+- 翻译增加分阶段进度、超时退出和取消保护，关闭截图后的旧结果不会干扰重试。
+- 启动后在后台准备文字识别模型，减少第一次提取文字时的等待。
 
-[查看完整版本说明](https://github.com/AidenXu-1/Zhenji/releases/tag/v1.0.0)
+[查看完整版本说明](https://github.com/AidenXu-1/Zhenji/releases/tag/v1.0.1)
 
 ## 下载与安装
 
 支持 **macOS 15 或更高版本**和 **Apple Silicon Mac**。
 
 <p>
-  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v1.0.0/Zhenji-1.0.0-macOS-arm64.dmg"><strong>下载 DMG（推荐）</strong></a>
+  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v1.0.1/Zhenji-1.0.1-macOS-arm64.dmg"><strong>下载 DMG（推荐）</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v1.0.0/Zhenji-1.0.0-macOS-arm64.zip">下载 ZIP</a>
+  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v1.0.1/Zhenji-1.0.1-macOS-arm64.zip">下载 ZIP</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/AidenXu-1/Zhenji/releases/latest">查看最新 Release</a>
 </p>
