@@ -54,22 +54,23 @@
 | 滚动长图、OCR、二维码与本地图片翻译 | 暂停继续、录中标记与范围提示 | 筛选、Quick Look、批量复制和拖出 |
 | 快速复制、保存或加入采集板 | 本地编辑、自动缩放与导出 | 扇形浏览、键盘操作与手动清空 |
 
-## 当前版本：1.0.2 (9)
+## 当前版本：1.1.1
 
-- 修复启动后或连续截图时，OCR 文字提取与图片翻译可能无结果的问题。
-- 更新本机文字识别方式，保留中英日韩识别、原图文字位置及极小选区处理。
-- 识别遇到计算异常时仍保留同语言重试和明确提示，避免中文变成无意义字母。
+- 新增“关于”页，查看和复制版本信息，并支持在 App 内检查、下载和重启安装后续更新。
+- 修复识别期间误点丢标注、调整选区后旧二维码结果覆盖的问题。
+- 改善极窄长图识别、长截图保存和英文译成中文时的文字布局。
+- 加强采集板保存、覆盖和清空时的资料保护，修复组合视频导出的声音范围。
 
-[查看完整版本说明](https://github.com/AidenXu-1/Zhenji/releases/tag/v1.0.2)
+[查看完整版本说明](https://github.com/AidenXu-1/Zhenji/releases/tag/v1.1.1)
 
 ## 下载与安装
 
 支持 **macOS 15 或更高版本**和 **Apple Silicon Mac**。
 
 <p>
-  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v1.0.2/Zhenji-1.0.2-macOS-arm64.dmg"><strong>下载 DMG（推荐）</strong></a>
+  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v1.1.1/Zhenji-1.1.1-macOS-arm64.dmg"><strong>下载 DMG（推荐）</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v1.0.2/Zhenji-1.0.2-macOS-arm64.zip">下载 ZIP</a>
+  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v1.1.1/Zhenji-1.1.1-macOS-arm64.zip">下载 ZIP</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/AidenXu-1/Zhenji/releases/latest">查看最新 Release</a>
 </p>
@@ -78,6 +79,12 @@
 2. 首次启动若被 macOS 拦截，进入“系统设置 → 隐私与安全性”，在“安全性”区域点击“仍要打开”。
 3. 按应用内引导授予屏幕录制权限；只有使用对应功能时，才需要麦克风或摄像头权限。
 4. macOS 授权后若功能没有立即生效，请退出并重新打开帧集。
+
+### App 内更新
+
+安装 1.1.1 后，在“设置 → 关于”点击“检查更新”，发现新版后可下载并重启安装。检查、下载和安装均由你点击决定；截图编辑、录制、导出或资料保存未完成时，会等待当前工作完成。
+
+**1.0.2 及更早版本需要先手动安装一次 1.1.1。** 之后可使用 App 内更新。更新只替换应用，继续使用已有资料和设置。
 
 <details>
 <summary><strong>校验下载文件</strong></summary>
