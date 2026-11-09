@@ -54,23 +54,24 @@
 | 滚动长图、OCR、二维码与本地图片翻译 | 暂停继续、录中标记与范围提示 | 筛选、Quick Look、批量复制和拖出 |
 | 快速复制、保存或加入采集板 | 本地编辑、自动缩放与导出 | 扇形浏览、键盘操作与手动清空 |
 
-## 当前版本：1.1.1
+## 当前版本：1.2.0
 
-- 新增“关于”页，查看和复制版本信息，并支持在 App 内检查、下载和重启安装后续更新。
-- 修复识别期间误点丢标注、调整选区后旧二维码结果覆盖的问题。
-- 改善极窄长图识别、长截图保存和英文译成中文时的文字布局。
-- 加强采集板保存、覆盖和清空时的资料保护，修复组合视频导出的声音范围。
+- 更新录屏准备工具栏和本地项目库，支持向已有项目补录。
+- 剪辑工作台支持四路联动与独立剪辑、框选、拖动出入点、快捷键裁剪和属性复制。
+- 优化自动缩放、摄像头预览及教学按键显示；按键可在后期调整样式和位置。
+- 成片导出提供多档尺寸、画质和 H.264／HEVC，支持独立原素材、音频及分轨包。
+- 修复完整窗口长截图两侧重复底角，完善录制、导出及本地工作台的资料保护。
 
-[查看完整版本说明](https://github.com/AidenXu-1/Zhenji/releases/tag/v1.1.1)
+[查看完整版本说明](https://github.com/AidenXu-1/Zhenji/releases/tag/v1.2.0)
 
 ## 下载与安装
 
 支持 **macOS 15 或更高版本**和 **Apple Silicon Mac**。
 
 <p>
-  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v1.1.1/Zhenji-1.1.1-macOS-arm64.dmg"><strong>下载 DMG（推荐）</strong></a>
+  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v1.2.0/Zhenji-1.2.0-macOS-arm64.dmg"><strong>下载 DMG（推荐）</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v1.1.1/Zhenji-1.1.1-macOS-arm64.zip">下载 ZIP</a>
+  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v1.2.0/Zhenji-1.2.0-macOS-arm64.zip">下载 ZIP</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/AidenXu-1/Zhenji/releases/latest">查看最新 Release</a>
 </p>
@@ -82,9 +83,9 @@
 
 ### App 内更新
 
-安装 1.1.1 后，在“设置 → 关于”点击“检查更新”，发现新版后可下载并重启安装。检查、下载和安装均由你点击决定；截图编辑、录制、导出或资料保存未完成时，会等待当前工作完成。
+安装 1.1.1 或更高版本后，在“设置 → 关于”点击“检查更新”，发现新版后可下载并重启安装。检查、下载和安装均由你点击决定；截图编辑、录制、导出或资料保存未完成时，会等待当前工作完成。
 
-**1.0.2 及更早版本需要先手动安装一次 1.1.1。** 之后可使用 App 内更新。更新只替换应用，继续使用已有资料和设置。
+**1.0.2 及更早版本需要先手动安装一次最新版。** 之后可使用 App 内更新。更新只替换应用，继续使用已有资料和设置。
 
 <details>
 <summary><strong>校验下载文件</strong></summary>
@@ -105,7 +106,7 @@ codesign --verify --deep --strict --verbose=4 /Applications/帧集.app
 - 无需注册账户，不包含广告、行为分析或遥测上报。
 - 截图、录屏、OCR、二维码识别和图片翻译默认在用户的 Mac 上处理。
 - 用户内容不会由帧集主动上传；图片翻译所需的语言资源可能由 macOS 首次准备。
-- 屏幕录制、麦克风和摄像头权限均由 macOS 管理，可随时在“系统设置 → 隐私与安全性”中撤销。
+- 屏幕录制、麦克风、摄像头和按键显示相关权限均由 macOS 管理，可随时在“系统设置 → 隐私与安全性”中撤销。
 
 详细的数据与剪贴板边界见 [隐私说明](PRIVACY.md)。提交公开问题前，请遮挡账号、聊天内容、文件路径和其他敏感信息。
 
