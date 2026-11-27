@@ -54,24 +54,25 @@
 | 滚动长图、OCR、二维码与本地图片翻译 | 暂停继续、录中标记与范围提示 | 筛选、Quick Look、批量复制和拖出 |
 | 快速复制、保存或加入采集板 | 本地编辑、自动缩放与导出 | 扇形浏览、键盘操作与手动清空 |
 
-## 当前版本：1.2.0
+## 当前版本 1.3.0
 
-- 更新录屏准备工具栏和本地项目库，支持向已有项目补录。
-- 剪辑工作台支持四路联动与独立剪辑、框选、拖动出入点、快捷键裁剪和属性复制。
-- 优化自动缩放、摄像头预览及教学按键显示；按键可在后期调整样式和位置。
-- 成片导出提供多档尺寸、画质和 H.264／HEVC，支持独立原素材、音频及分轨包。
-- 修复完整窗口长截图两侧重复底角，完善录制、导出及本地工作台的资料保护。
+正在使用 1.2.0？打开帧集菜单，选择「检查更新…」，依次点击「下载更新」和「重启并安装」。已有的素材和设置会保留。
 
-[查看完整版本说明](https://github.com/AidenXu-1/Zhenji/releases/tag/v1.2.0)
+- 连续用帧集截图时，小卡留在原位，截图会取到它背后的画面。
+- 收起的小卡可拖出当前格式的整叠素材。按 ↑ 展开可浏览和拖出单张，按 ↓ 收回。在收起状态再按 ↓，即可打开屏幕底部的采集板。
+- 底部采集板支持搜索、按格式筛选、框选、批量复制和拖出。按 ↑ 可回到原位的小卡。
+- 优化素材较多时的打开和切换，调整旧版 macOS 上文字识别的接口调用。
+
+[查看完整版本说明](https://github.com/AidenXu-1/Zhenji/releases/tag/v1.3.0)
 
 ## 下载与安装
 
 支持 **macOS 15 或更高版本**和 **Apple Silicon Mac**。
 
 <p>
-  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v1.2.0/Zhenji-1.2.0-macOS-arm64.dmg"><strong>下载 DMG（推荐）</strong></a>
+  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v1.3.0/Zhenji-1.3.0-macOS-arm64.dmg"><strong>下载 DMG（推荐）</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v1.2.0/Zhenji-1.2.0-macOS-arm64.zip">下载 ZIP</a>
+  <a href="https://github.com/AidenXu-1/Zhenji/releases/download/v1.3.0/Zhenji-1.3.0-macOS-arm64.zip">下载 ZIP</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/AidenXu-1/Zhenji/releases/latest">查看最新 Release</a>
 </p>
